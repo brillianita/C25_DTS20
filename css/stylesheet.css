@@ -33,6 +33,7 @@ a {
 /* Header */
 
 .brand {
+    position: absolute;
     margin-top: 30px;
     margin-left: 80px;
     float: left;
@@ -87,7 +88,7 @@ header {
 
 /* Bagian Hero */
 .hero-section {
-    margin: 200px 0;
+    margin: 200px 80px;
     float: left;
     color: #ffffff;
     width: 714px;
@@ -101,8 +102,8 @@ header {
 .hero-image img {
     position: absolute;
     margin-top: 80;
-    width: 845px;
-    height: 627px;
+    width: 645x;
+    height: 427px;
 }
 .site-title {
     margin-top: 100px;
@@ -191,6 +192,7 @@ header {
 
 .contact-form {
     background-image: url("../img/bgcontact.png");
+    border-radius: 80px;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
